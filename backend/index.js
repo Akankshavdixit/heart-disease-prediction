@@ -7,8 +7,8 @@ const predictroutes = require('./routes/predict');
 
 
 app.use(cors({
-    origin: 'https://heart-disease-prediction-73fg.vercel.app', 
-    //origin : 'http://localhost:3000'
+    origin: 'https://heart-disease-prediction-73fg.vercel.app',
+    // origin : 'http://localhost:3000',
     credentials: true, 
 }));
 
